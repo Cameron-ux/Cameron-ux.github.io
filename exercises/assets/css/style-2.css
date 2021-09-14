@@ -50,33 +50,45 @@ select {
 }
 
 /* ================= ENDS ================ */
+/* Desktops */
+@media (min-width: 768px) {
+    body {
+        padding: 4% 20%
+    }
+}
 
+/* Mobiles */
+@media (max-width: 767px) {
+    body {
+        padding: 12% 8%
+    }
+}
 
 h1 {
     font-size: 72px;
     margin-bottom: 56px;
-text-align: center;
-letter-spacing: 4px;
-font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: sans-serif;
 }
 
 h2 {
     font-size: 30px;
     margin-bottom: 64px;
     font-family: sans-serif;
-text-align: center;
-line-height: 1.4;
-text-transform: uppercase;
-font-weight: normal;
+    text-align: center;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 4px;
 }
 
 p {
     font-size: 22px;
     line-height: 1.6;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
