@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none
+    border: none;
 }
 
 *,
@@ -50,6 +50,8 @@ select {
 }
 
 /* ================= ENDS ================ */
+
+
 /* Desktops */
 @media (min-width: 768px) {
     body {
@@ -64,8 +66,12 @@ select {
     }
 }
 
+body {
+    background-color: antiquewhite;
+}
+
 h1 {
-    font-size: 72px;
+    color: brown;
     margin-bottom: 56px;
     text-align: center;
     letter-spacing: 4px;
@@ -73,8 +79,9 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
-    margin-bottom: 64px;
+    color: brown;
+    font-size: 36px;
+    margin-bottom: 4px;
     font-family: sans-serif;
     text-align: center;
     line-height: 1.4;
@@ -83,12 +90,14 @@ h2 {
 }
 
 h3 {
-    font-size: 32px;
+    color: brown;
+    font-size: 24px;
     margin-bottom: 4px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 p {
-    font-size: 22px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    color: brown;
+    font-size: 18px;
 }

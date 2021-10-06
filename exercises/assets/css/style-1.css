@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none
+    border: none;
 }
 
 *,
@@ -50,6 +50,8 @@ select {
 }
 
 /* ================= ENDS ================ */
+
+
 /* Desktops */
 @media (min-width: 768px) {
     body {
@@ -64,26 +66,33 @@ select {
     }
 }
 
+body {
+    background-color: lightcyan;
+}
+
 h1 {
     font-size: 84px;
     text-align: center;
     font-weight: normal;
     letter-spacing: -2px;
     margin-bottom: 32px;
+    color: red;
 }
 
 h2 {
     font-size: 36px;
     margin-bottom: 4px;
+    color: green;
 }
 
 h3 {
+    color: blue;
     font-size: 24px;
     margin-bottom: 4px;
 }
 
 p {
-    font-size: 18px;
+    color: darkslateblue;
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
